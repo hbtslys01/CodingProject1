@@ -1,0 +1,5 @@
+geometry_msgs/Point start
+geometry_msgs/Point goal
+int32 num_waypoints
+---
+geometry_msgs/Point[] path

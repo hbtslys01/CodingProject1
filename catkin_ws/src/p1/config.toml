@@ -1,0 +1,1 @@
+structure_paths = ["src/draw","src/launcher.py", "src/problem1.py", "src/problem2.py", "src/problem3.py", "src/problem4a.py", "src/problem4b.py", "launch/problem1.launch", "launch/problem2.launch", "launch/problem3.launch", "launch/problem4a.launch", "launch/problem4b.launch"]

@@ -1,0 +1,9 @@
+<!-- Launch the framework code for problem 2 on p3 -->
+<launch>
+  <node name="jac_s" pkg="p3" type="problem2_solution.pyc" output="screen"/>
+  <node name="viz" pkg="p3" type="visualize_jac.py" output="screen"/>
+  <node name="jac_service" pkg="p3" type="problem2.py" output="screen"/>
+  <node name="kin_service" pkg="p3" type="problem1.py" output="screen"/>
+  
+</launch>
+

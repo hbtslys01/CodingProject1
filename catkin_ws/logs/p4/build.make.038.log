@@ -1,0 +1,27 @@
+[  0%] Built target _p4_generate_messages_check_deps_GetPosition
+[  0%] Built target _p4_generate_messages_check_deps_PointArray
+[  0%] Built target _p4_generate_messages_check_deps_ReachPos
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _p4_generate_messages_check_deps_FindPath
+[  0%] Built target _p4_generate_messages_check_deps_PositionBucket
+[  0%] Built target _p4_generate_messages_check_deps_JointAngles
+[  0%] Built target _p4_generate_messages_check_deps_InterpolatePath
+[  0%] Built target _p4_generate_messages_check_deps_FollowPath
+[  0%] Built target _p4_generate_messages_check_deps_ComputeCost
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _p4_generate_messages_check_deps_SetPosition
+[  0%] Built target _p4_generate_messages_check_deps_ClosestPointPath
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[ 22%] Built target p4_generate_messages_py
+[ 41%] Built target p4_generate_messages_lisp
+[ 60%] Built target p4_generate_messages_nodejs
+[ 94%] Built target p4_generate_messages_eus
+[100%] Built target p4_generate_messages_cpp
+[100%] Built target p4_generate_messages

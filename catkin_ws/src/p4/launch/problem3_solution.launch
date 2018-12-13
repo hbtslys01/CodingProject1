@@ -1,0 +1,10 @@
+<!-- Launch services for problem3 on HW4 -->
+<launch>
+  
+  <node name="problem1a_solution" pkg="p4" type="problem1a_solution" output="screen"/>
+  <node name="problem2a_solution" pkg="p4" type="problem2a_solution_runner.py" output="screen"/>
+  <node name="problem2b_solution" pkg="p4" type="problem2b_solution_runner.py" output="screen"/>
+  <node name="problem3_solution" pkg="p4" type="problem3_solution" output="screen"/>
+</launch>
+
+

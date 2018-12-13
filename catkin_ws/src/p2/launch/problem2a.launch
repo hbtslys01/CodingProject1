@@ -1,0 +1,7 @@
+<!-- Launch the framework code for problem 2a on P2 -->
+<launch>
+  <node name="start_vrep" pkg="p2" type="start_vrep" args="~/vrep $(find p2)/scenes/p2-2.ttt"/>
+  <node name="acker_gen" pkg="p2" type="acker.pyc"/>
+  <node name="problem2a" pkg="p2" type="problem2a_solution.pyc"/>
+  <node name="p2a" pkg="p2" type="problem2a.py"/>
+</launch>

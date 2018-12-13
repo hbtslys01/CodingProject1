@@ -1,0 +1,7 @@
+<!-- Launch the framework code for problem 1 on P2 -->
+<launch>
+  <node name="start_vrep" pkg="p2" type="start_vrep" args="~/vrep $(find p2)/scenes/p2-1.ttt"/>
+  <node name="vel_cmds" pkg="p2" type="gen_vel.pyc"/>
+  <node name="problem1" pkg="p2" type="problem1_solution.pyc"/>
+  <node name="omni" pkg="p2" type="problem1.py"/>
+</launch>

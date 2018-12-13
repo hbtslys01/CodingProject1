@@ -1,0 +1,9 @@
+<!-- Launch the framework code for problem 3a on p3 -->
+<launch>
+  <node name="start_vrep" pkg="p3" type="start_vrep" args="~/vrep $(find p3)/scenes/p3-3a.ttt"/>
+  <node name="effector_pos" pkg="p3" type="effector_position.py" output="screen"/>
+  <node name="jac_service" pkg="p3" type="problem2.py" output="screen"/>
+  <node name="kin_service" pkg="p3" type="problem1.py" output="screen"/>
+  <node name="ik_service" pkg="p3" type="problem3a.py" output="screen"/>
+</launch>
+

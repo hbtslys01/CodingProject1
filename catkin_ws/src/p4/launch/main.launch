@@ -1,0 +1,9 @@
+<!-- Launch the framework code for cp4 -->
+<launch>
+  <node name="start_vrep" pkg="p4" type="start_vrep" args="~/vrep $(find p4)/scenes/p4_invis.ttt"/>
+  <node name="cost_compute" pkg="p4" type="cost_services_runner.py" output="screen"/>
+  <node name="randomize_blocks" pkg="p4" type="randomize_blocks" output="screen"/>
+  <node name="interpolate_server" pkg="p4" type="interpolate_server_runner.py" output="screen"/>
+</launch>
+
+

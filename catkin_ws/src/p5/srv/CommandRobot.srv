@@ -1,0 +1,4 @@
+State state
+Action action
+---
+State next_state

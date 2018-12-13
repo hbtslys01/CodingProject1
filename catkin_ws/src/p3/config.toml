@@ -1,0 +1,4 @@
+build = "cd ../.. && catkin build && cp src/p3/libv_repExtRosInterface.so ~/vrep/"
+structure_paths = ["src/problem1.py", "src/problem2.py", "src/problem3a.py", "src/problem3b.py", "launch/problem1.launch", "launch/problem2.launch", "launch/problem3a.launch", "launch/problem3b.launch"]
+copy_paths = ["config.toml", "src/problem2_solution.pyc", "src/arm_config.py", "src/effector_position.py", "src/start_vrep", "src/get_jacobians.py", "src/run_effector", "src/jac_tester.py", "src/visualize_jac.py", "src/wave_positions.py", "msg/JointAngles.msg", "msg/PointArray.msg", "srv/JacString.srv", "srv/Problem1.srv", "srv/Problem2.srv", "srv/Problem3a.srv"]
+exclude_paths = ["libv_repExtRosInterface.so", "scenes/p3-2.ttt", "scenes/p3-3a.ttt", "scenes/p3-3b.ttt", "scenes/p3-multi.ttt"]

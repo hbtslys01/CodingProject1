@@ -1,0 +1,36 @@
+
+(cl:in-package :asdf)
+
+(defsystem "p5-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :p5-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "ChooseAction" :depends-on ("_package_ChooseAction"))
+    (:file "_package_ChooseAction" :depends-on ("_package"))
+    (:file "ClosestPointPath" :depends-on ("_package_ClosestPointPath"))
+    (:file "_package_ClosestPointPath" :depends-on ("_package"))
+    (:file "CommandRobot" :depends-on ("_package_CommandRobot"))
+    (:file "_package_CommandRobot" :depends-on ("_package"))
+    (:file "ComputeEntropy" :depends-on ("_package_ComputeEntropy"))
+    (:file "_package_ComputeEntropy" :depends-on ("_package"))
+    (:file "DetectMetal" :depends-on ("_package_DetectMetal"))
+    (:file "_package_DetectMetal" :depends-on ("_package"))
+    (:file "FollowPath" :depends-on ("_package_FollowPath"))
+    (:file "_package_FollowPath" :depends-on ("_package"))
+    (:file "GetPosition" :depends-on ("_package_GetPosition"))
+    (:file "_package_GetPosition" :depends-on ("_package"))
+    (:file "GetTransitions" :depends-on ("_package_GetTransitions"))
+    (:file "_package_GetTransitions" :depends-on ("_package"))
+    (:file "InterpolatePath" :depends-on ("_package_InterpolatePath"))
+    (:file "_package_InterpolatePath" :depends-on ("_package"))
+    (:file "LocateBall" :depends-on ("_package_LocateBall"))
+    (:file "_package_LocateBall" :depends-on ("_package"))
+    (:file "ModelSenseAction" :depends-on ("_package_ModelSenseAction"))
+    (:file "_package_ModelSenseAction" :depends-on ("_package"))
+    (:file "SenseBall" :depends-on ("_package_SenseBall"))
+    (:file "_package_SenseBall" :depends-on ("_package"))
+    (:file "SetPosition" :depends-on ("_package_SetPosition"))
+    (:file "_package_SetPosition" :depends-on ("_package"))
+  ))

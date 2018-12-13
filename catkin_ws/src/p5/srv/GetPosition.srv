@@ -1,0 +1,3 @@
+int8 block_id
+---
+geometry_msgs/Point loc

@@ -1,0 +1,8 @@
+prefix=/home/cs4750/catkin_ws/devel/.private/p4
+
+Name: p4
+Description: Description of p4
+Version: 1.0.0
+Cflags: -I/home/cs4750/catkin_ws/devel/.private/p4/include
+Libs: -L/home/cs4750/catkin_ws/devel/.private/p4/lib 
+Requires: message_runtime

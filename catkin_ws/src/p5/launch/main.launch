@@ -1,0 +1,7 @@
+<!-- Launch the framework code for Coding Project 5 -->
+<launch>
+  <node name="start_vrep" pkg="p5" type="start_vrep" args="~/vrep $(find p5)/scenes/p5.ttt"/>
+  <node name="interpolate_server" pkg="p5" type="so_runner" args="interpolate_server" output="screen"/>
+  <node name="pure_pursuit" pkg="p5" type="so_runner" args="pure_pursuit" output="screen"/>
+  <node name="action_server" pkg="p5" type="so_runner" args="action_server" output="screen"/>
+</launch>

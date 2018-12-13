@@ -1,0 +1,3 @@
+build = "cd ../.. && catkin build && cp src/p2/libv_repExtRosInterface.so ~/vrep/"
+structure_paths = ["src/problem1.py", "src/problem2a.py", "src/problem2b.py","launch/problem1.launch","launch/problem2a.launch","launch/problem2b.launch"]
+

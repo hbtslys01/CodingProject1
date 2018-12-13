@@ -1,0 +1,7 @@
+<!-- Launch the framework code for problem 2b on P2 -->
+<launch>
+  <node name="start_vrep" pkg="p2" type="start_vrep" args="~/vrep $(find p2)/scenes/p2-3.ttt"/>
+  <node name="diff_max_vel" pkg="p2" type="diff.pyc"/>
+  <node name="problem2b" pkg="p2" type="problem2b_solution.pyc"/>
+  <node name="p2b" pkg="p2" type="problem2b.py"/>
+</launch>

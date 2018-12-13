@@ -1,0 +1,10 @@
+<launch>
+  <node name="randomize_blocks" pkg="p5" type="so_runner" args="randomize_blocks" output="screen"/>
+  <node name="block_sensors" pkg="p5" type="so_runner" args="block_sensors" output="screen"/>
+  <node name="transition_server" pkg="p5" type="so_runner" args="transition_server" output="screen"/>
+  <!-- TODO: Launch your problem 1, problem 2, problem 3, and problem 4 nodes -->
+  <node name="problem1" pkg="p5" type="problem1.py" output="screen"/>
+  <node name="problem2" pkg="p5" type="problem2.py" output="screen"/>
+  <node name="problem3" pkg="p5" type="problem3.py" output="screen"/>
+  <node name="problem4" pkg="p5" type="problem4.py" output="screen"/>
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- launch turtlesim node -->
+  <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+
+  <!-- launch "draw_service" node from "problem4a.py" in package "p1" -->
+  <node name="draw_service" pkg="p1" type="problem4a.py" />
+ 
+  <!-- launch "launcher" node from "launcher.py" in package "p1" -->
+  <node name="launcher" pkg="p1" type="launcher.py" />
+  
+</launch>

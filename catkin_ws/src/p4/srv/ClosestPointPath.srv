@@ -1,0 +1,6 @@
+geometry_msgs/Point robot_position
+geometry_msgs/Point[] path
+---
+geometry_msgs/Point closest_point # closest_point on path
+std_msgs/Float32 path_position # distance of closest_point along path from start
+std_msgs/Float32 dist_to_path # range from robot to closest point

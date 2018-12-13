@@ -1,0 +1,8 @@
+prefix=/home/cs4750/catkin_ws/devel/.private/turtle
+
+Name: turtle
+Description: Description of turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/cs4750/catkin_ws/devel/.private/turtle/lib 
+Requires: 

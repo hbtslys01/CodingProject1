@@ -1,0 +1,4 @@
+turtle
+/home/cs4750/catkin_ws/devel/.private/turtle/share/turtle/cmake/turtleConfig.cmake /home/cs4750/catkin_ws/devel/share/turtle/cmake/turtleConfig.cmake
+/home/cs4750/catkin_ws/devel/.private/turtle/share/turtle/cmake/turtleConfig-version.cmake /home/cs4750/catkin_ws/devel/share/turtle/cmake/turtleConfig-version.cmake
+/home/cs4750/catkin_ws/devel/.private/turtle/lib/pkgconfig/turtle.pc /home/cs4750/catkin_ws/devel/lib/pkgconfig/turtle.pc

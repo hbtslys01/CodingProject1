@@ -1,0 +1,9 @@
+<launch>
+  <node name="randomize_blocks" pkg="p5" type="so_runner" args="randomize_blocks" output="screen"/>
+  <node name="block_sensors" pkg="p5" type="so_runner" args="block_sensors" output="screen"/>
+  <node name="driver" pkg="p5" type="drive.py" output="screen"/>
+  <node name="visualization" pkg="p5" type="so_runner" args="visualizer" output="screen"/>
+  <!-- TODO: Launch your problem 1 and problem 2 nodes -->
+  <node name="problem1" pkg="p5" type="problem1.py" output="screen"/>
+  <node name="problem2" pkg="p5" type="problem2.py" output="screen"/>
+</launch>

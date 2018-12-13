@@ -1,0 +1,10 @@
+<!-- Launch the framework code for problem 3b on p3 -->
+<launch>
+  <node name="start_vrep" pkg="p3" type="start_vrep" args="~/vrep $(find p3)/scenes/p3-3b.ttt"/>
+  <node name="make_waves" pkg="p3" type="wave_positions.py"/>
+  <node name="jac_service" pkg="p3" type="problem2.py" output="screen"/>
+  <node name="kin_service" pkg="p3" type="problem1.py" output="screen"/>
+  <node name="ik_service" pkg="p3" type="problem3a.py" output="screen"/>
+  <node name="p3b" pkg="p3" type="problem3b.py"/>
+</launch>
+

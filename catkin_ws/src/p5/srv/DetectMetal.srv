@@ -1,0 +1,4 @@
+int8 block_id
+---
+bool has_metal
+float64 distance

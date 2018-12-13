@@ -1,0 +1,3 @@
+State state		# Request: current state
+---
+ActionOption[] actions	# Result: list of all possible actions and their possible transitions
